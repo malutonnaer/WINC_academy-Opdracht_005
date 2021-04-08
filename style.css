@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: azure;
+    font-family: 'Roboto', sans-serif;
+    color: blue; */
+}
+
+h1 {
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 48px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;    
+}
+
+header a {
+    color: blue;
+}
+
+ul {
+    list-style: none;
+}
+
+header, main, footer {
+    margin-top: 80px;    
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;      
+}
+
+footer { 
+    margin-bottom: 80px;
+}    
+
+header {
+    border: 12px dashed blue;
+}
+
+main {
+    border: 12px dashed aquamarine;
+}
+
+footer {
+    border: 12px dashed violet;
+}
+
+
+.header {
+    padding: 32px 40px;
+    background-color: blue;    
+    height: 200px;
+}
+
+.menu {
+    background-color: azure;
+    padding: 8px;
+    
+}
+
+.main {
+    padding: 32px 40px;
+    background-color: aquamarine;
+    height: 500px;
+}
+
+.footer { 
+    padding: 32px 40px;  
+    background-color: violet;
+    height: 320px;    
+}
+
+.blocks {
+    display:inline-flex;    
+}
+
+.block-inner {
+    border-top: 12px dashed azure;
+    border-bottom: 12px dashed azure;
+    border-right: 12px dashed azure;
+    border-left: 12px dashed azure;
+}
+
+.block-inner-tb {
+    border-top: 12px dashed azure;
+    border-bottom: 12px dashed azure;    
+}
+
+.block {
+    padding: 16px;
+    width: 240px;
+    height: 300px;    
+    background-color: azure;
+}
+
+
+
